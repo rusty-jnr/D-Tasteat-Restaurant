@@ -1,0 +1,485 @@
+@media only screen and (max-width: 1024px) {
+  .container {
+    max-width: 960px;
+  }
+
+  /* home page */
+  main #banner {
+    min-height: 60vh;
+  }
+  main #banner .container #banner_info {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  main #banner .container #banner_info h1 {
+    font-size: 4rem;
+    margin: 0;
+    width: 60%;
+  }
+  main #banner .container #banner_info p {
+    width: 50%;
+  }
+  #banner .container #banner_img {
+    display: none;
+  }
+  main #special_dishes #dishes .dish_box:last-child {
+    display: none;
+  }
+  main #blogs #blog_container {
+    width: 80%;
+  }
+  table {
+    width: 90%;
+  }
+
+  /* blog details */
+  #blog_details h1 {
+    width: 100%;
+  }
+  #blog_details p#description {
+    width: 80%;
+  }
+  #blog_body {
+    width: 80%;
+  }
+
+  /* contact us */
+  #form_container button {
+    width: 35%;
+  }
+  #contact_form_container .container {
+    flex-wrap: wrap;
+  }
+  #contact_form_container #contact_info {
+    width: 100%;
+    text-align: center;
+  }
+  #contact_form_container #contact_info .info_box {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  #contact_form_container #contact_form {
+    width: 100%;
+  }
+  #contact_form_container #contact_info ul {
+    justify-content: center;
+  }
+  #more_contact .container {
+    padding: 1rem;
+  }
+
+  /* menu page */
+  #menu_list .container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  #menu_filter #search_container {
+    width: 60%;
+  }
+  #order_via_app p {
+    width: 80%;
+  }
+
+  /* reservation */
+  #map_area {
+    min-height: 70vh;
+    height: auto;
+    margin-top: 3rem;
+  }
+  #reservation_form_container {
+    position: relative;
+    top: 0;
+    width: 90%;
+    box-sizing: border-box;
+    margin-bottom: 3rem;
+  }
+  iframe {
+    height: 40vh;
+  }
+
+  /* footer */
+  footer #footer_info .info_box#second #suscribe_input {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-image: none;
+  }
+  .container {
+    max-width: 720px;
+  }
+
+  /* header */
+  header {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
+  }
+  header .container {
+    flex-wrap: wrap;
+  }
+  header .container #logo {
+    order: 1;
+  }
+  header .container #header_hamburger_container {
+    order: 2;
+  }
+  header .container nav {
+    order: 3;
+    margin-top: 1rem;
+    width: 100%;
+    padding: 1rem 0;
+    display: none;
+  }
+  header .container nav ul {
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  header .container nav ul li {
+    margin: 0;
+  }
+  #header_hamburger_container #hamburger_menu {
+    display: flex;
+  }
+
+  /* home page */
+  main #banner {
+    padding: 2rem 0;
+    min-height: auto;
+  }
+  main #banner .container #banner_info h1 {
+    width: 100%;
+  }
+  main #banner .container #banner_info p {
+    width: 80%;
+  }
+  main #opening_info .info_box p {
+    line-height: 1rem;
+  }
+  main #special_dishes p {
+    width: 90%;
+  }
+  main #special_dishes .container #dishes {
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 5.5rem 0 2rem 0;
+    gap: 5.5rem;
+  }
+  main #special_dishes #dishes .dish_box {
+    min-height: 10rem;
+  }
+  main #special_dishes #dishes .dish_box:last-child {
+    display: flex;
+  }
+  main #special_dishes #dishes .dish_box .dish_img_box {
+    top: -60px;
+  }
+  main #special_dishes #dishes .dish_box .dish_img_box img {
+    width: 130px;
+  }
+  main #blogs #blog_container {
+    width: 100%;
+  }
+  main #blogs .container p {
+    width: 90%;
+  }
+  main #faq .container #accordion {
+    width: 100%;
+  }
+
+  /* about us page */
+  #about_us_banner {
+    min-height: 60vh;
+    padding: 1rem 0;
+  }
+  #about_us_banner_info {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  #about_us_banner_info p.text_style {
+    display: none;
+  }
+  #about_us_banner_img {
+    display: none;
+  }
+  #services .container {
+    grid-template-columns: 1fr;
+  }
+  #services {
+    padding: 1rem 0;
+  }
+  #services .container {
+    padding: 1rem 0;
+  }
+  #the_team {
+    padding: 1rem 0rem;
+  }
+  #the_team #chefs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* blog details */
+  #blog_details h1 {
+    width: 100%;
+  }
+  #blog_details p#description {
+    width: 100%;
+  }
+  #blog_body {
+    width: 100%;
+  }
+
+  /* contact us */
+  #more_contact #more_contact_container .contact_box #image {
+    display: none;
+  }
+  #more_contact #more_contact_container .contact_box {
+    padding: 1.5rem;
+    min-height: auto;
+  }
+  #more_contact #more_contact_container .contact_box #info {
+    padding: 0rem;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* menu page */
+  #menu_list #menu_item_box #image_box {
+    height: 120px;
+  }
+  #menu_list #menu_item_box #info_box p.price {
+    font-size: 1.2rem;
+  }
+  #menu_filter #search_container {
+    width: 80%;
+  }
+  #menu_list #menu_item_box #info_box p.cuisine,
+  #menu_list #menu_item_box #info_box p.ingredients {
+    font-size: 0.8rem;
+    line-height: 15px;
+  }
+  #order_via_app #apps {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* gallery */
+  #dish_gallery .container {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 250px);
+    grid-template-areas:
+      "item1 item2"
+      "item3 item4"
+      "item5 item6";
+  }
+  #reserved .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  #feature {
+    margin: 1rem 0;
+  }
+  #feature .feature_container:last-child {
+    display: none;
+  }
+  #feature .feature_container #info_box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+  }
+  #feature .feature_container #img_box {
+    display: none;
+  }
+
+  /* footer */
+  footer {
+    background-position: 100% 300%;
+  }
+  footer #footer_info {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  footer #footer_info .info_box#second #suscribe_input {
+    width: 50%;
+  }
+  footer #footer_info .info_box#third {
+    text-align: center;
+  }
+  footer #footer_info .info_box#first h3::after,
+  footer #footer_info .info_box#third h3::after {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  footer #copyright > div {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .container {
+    padding: 1rem;
+  }
+  /* home */
+  main #banner {
+    min-height: auto;
+  }
+  main #banner .container #banner_info h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  main #opening_info .container {
+    grid-template-columns: 1fr;
+  }
+  main #opening_info .info_box {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  main #special_dishes {
+    padding: 3rem 0;
+  }
+  main #special_dishes p {
+    width: 100%;
+  }
+  main #special_dishes .container #dishes {
+    width: 60%;
+  }
+  main #special_dishes #dishes .dish_box {
+    width: 100%;
+  }
+  main #special_dishes #dishes .dish_box .dish_img_box {
+    top: -60px;
+    right: 20%;
+  }
+  main #special_dishes #dishes .dish_box .dish_img_box img {
+    width: 160px;
+  }
+  main #blogs {
+    padding: 3rem 0;
+  }
+  main #blogs .container p {
+    width: 100%;
+  }
+  main #blogs #blog_container {
+    grid-template-columns: 1fr;
+  }
+
+  /* about us */
+  #about_us_banner_info button {
+    width: 35%;
+  }
+
+  /* blog details */
+  #blog_details h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  /* contact us */
+  #contact_form_container {
+    padding: 1rem 0;
+  }
+  #more_contact #more_contact_container {
+    flex-wrap: wrap;
+  }
+  #more_contact #more_contact_container .contact_box {
+    width: 100%;
+  }
+  #contact_form_container #contact_form {
+    padding: 0;
+    width: 100%;
+  }
+  #form_container .input_container {
+    width: 100%;
+  }
+  #form_container input,
+  #form_container select {
+    width: 100%;
+  }
+
+  /* menu page */
+  #menu_list .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #menu_list #menu_item_box #info_box h3 {
+    font-size: 1rem;
+  }
+  #menu_filter #search_container {
+    width: 100%;
+  }
+  #order_via_app {
+    padding: 1rem 0;
+  }
+  #order_via_app p {
+    width: 100%;
+  }
+  #order_via_app #apps {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #order_via_app #apps {
+    margin: 1rem 0;
+  }
+  #order_via_app button {
+    margin-top: 1rem;
+  }
+
+  /* gallery page */
+  #dish_gallery {
+    margin: 1rem 0 2rem 0;
+  }
+  #dish_gallery button {
+    margin-top: 1rem;
+  }
+  #reserved h2,
+  #feature .feature_container #info_box h2 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  #dish_gallery .container {
+    grid-gap: 1rem;
+    grid-template-rows: repeat(3, 200px);
+  }
+
+  /* reservation */
+  #map_area {
+    margin-top: 1rem;
+  }
+  #reservation_form_container {
+    padding: 1rem;
+  }
+  #form_container > div {
+    flex-wrap: wrap;
+  }
+  #reservation_form_container #form_container .input_container {
+    width: 100%;
+  }
+  #reservation_form_container #form_container button {
+    width: 40%;
+  }
+
+  /* footer */
+  footer {
+    background-position: 50% 100%;
+  }
+  footer #footer_info .info_box#second p {
+    margin-top: 0;
+    width: 80%;
+  }
+  footer #footer_info .info_box#second #suscribe_input {
+    width: 100%;
+  }
+  footer #copyright > div {
+    justify-content: center;
+    text-align: center;
+  }
+}

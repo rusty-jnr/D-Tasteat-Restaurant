@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Tasteat Restaurant - Reservation</title>
+    <link
+      rel="stylesheet"
+      href="../plugins/jquery-ui-1.12.1.custom/jquery-ui.min.css"
+    />
+    <link rel="stylesheet" href="../css/general.css" />
+    <link rel="stylesheet" href="../css/site.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="logo">
+          <a href="../index.html"
+            ><img src="../images/logo.svg" alt="The Tasteat Restaurant"
+          /></a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li>
+              <a href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+        <div id="header_hamburger_container">
+          <a href="reservation.html" class="btn_bg">Reservation</a>
+          <div id="hamburger_menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="page_title">
+        <h1 class="text_style">Book a Table</h1>
+      </section>
+      <section id="map_area">
+        <div id="reservation_form_container">
+          <form action="#" id="reservation">
+            <div id="form_container">
+              <div class="form-group">
+                <div class="input_container">
+                  <label for="name" class="required">Full Name</label>
+                  <input type="text" id="name" name="name" />
+                  <span class="error"></span>
+                </div>
+                <div class="input_container">
+                  <label for="email" class="required">Email Address</label>
+                  <input type="email" id="email" />
+                  <span class="error"></span>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input_container">
+                  <label for="phone" class="required">Phone Number</label>
+                  <input type="tel" id="phone" placeholder="(289) 973-8903" />
+                  <span class="error"></span>
+                </div>
+                <div class="input_container">
+                  <label for="date" class="required">Reservation Date</label>
+                  <input type="date" id="date" />
+                  <span class="error"></span>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input_container">
+                  <label for="time" class="required">Reservation Time</label>
+                  <input type="time" id="time" />
+                  <span class="error"></span>
+                </div>
+                <div class="input_container">
+                  <label for="guests" class="required">Number of Guests</label>
+                  <input type="number" id="guests" min="1" />
+                  <span class="error"></span>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input_container full-width">
+                  <label for="requests">Special Requests</label>
+                  <textarea
+                    id="requests"
+                    name="requests"
+                    rows="6"
+                    placeholder="Enter any special requests or dietary restrictions"
+                  ></textarea>
+                  <span class="error"></span>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input_container">
+                  <label for="occasion" class="required">Occasion</label>
+                  <select id="occasion" name="occasion">
+                    <option selected disabled>What's the occasion....</option>
+                    <option value="birthday">Birthday</option>
+                    <option value="anniversary">Anniversary</option>
+                    <option value="business-meeting">Business Meeting</option>
+                    <option value="casual-dining">Casual Dining</option>
+                    <option value="other">Other</option>
+                  </select>
+                  <span class="error"></span>
+                </div>
+                <div class="input_container">
+                  <label for="confirmation" class="required"
+                    >Preferred Confirmation Method</label
+                  >
+                  <select id="confirmation" name="confirmation">
+                    <option selected disabled>
+                      How would you like to be contacted?
+                    </option>
+                    <option value="email">Email</option>
+                    <option value="phone-call">Phone Call</option>
+                    <option value="text-message">Text Message</option>
+                  </select>
+                  <span class="error"></span>
+                </div>
+              </div>
+              <button class="btn_nbg">Book a Table</button>
+            </div>
+          </form>
+          <div id="dialog">
+            <div id="success">
+              <div id="successIcon">
+                <i class="checkmark">✓</i>
+              </div>
+              <h2>Reservation Confirmed!</h2>
+              <p id="successMsg">
+                Thank you for choosing The Tasteat Restaurant! Your reservation is
+                confirmed, and we look forward to serving you; feel free to
+                contact us with any special requests or questions.
+              </p>
+            </div>
+          </div>
+        </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2893.29770089963!2d-79.8540153874029!3d43.516984361108506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b6f3de4f9d0b9%3A0x5e8c215f0fcd56b!2sTik%20Tech%20Electronics%20Rogers%2FFido%2FChatr!5e0!3m2!1sen!2sca!4v1720305351699!5m2!1sen!2sca"
+          width="100%"
+          height="100%"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <section id="footer_logo">
+          <a href="../index.html"
+            ><img src="../images/logo.svg" alt="The Tasteat Restaurant"
+          /></a>
+        </section>
+        <section id="footer_info">
+          <div class="info_box" id="first">
+            <h3>Contact</h3>
+            <p>1234 S. Rue Dalou, 75015 Paris</p>
+            <p>
+              <span class="gold">Call</span> -
+              <a href="tel:+1 (156) 980-8799">+1 (156) 980-8799</a>
+            </p>
+            <p>
+              <a href="mailto:5@conestogac.on.ca" class="gold"
+                >group5@conestogac.on.ca</a
+              >
+            </p>
+          </div>
+          <div class="info_box" id="second">
+            <p>Join our mailing list for updates, Get news & offers events.</p>
+            <div id="suscribe_input">
+              <input type="text" placeholder="Email" />
+              <button>Suscribe</button>
+            </div>
+          </div>
+          <div class="info_box" id="third">
+            <h3>Working Hours</h3>
+            <!-- <p><a href="contact.html">Contact Us</a></p> -->
+            <p><span class="gold">Mon – Fri</span>: 7.00am – 6.00pm</p>
+            <p><span class="gold">Sat</span>: 7.00am – 6.00pm</p>
+            <p><span class="gold">Sun</span>: 8.00am – 6.00pm</p>
+          </div>
+        </section>
+      </div>
+      <div id="copyright">
+        <div class="container">
+          <p>
+            &copy; 2024 The Tasteat Restaurant | Designed by
+            <span class="gold">Group 5</span> All rights reserved.
+          </p>
+          <ul>
+            <li><img src="../images/Insta.svg" alt="" /></li>
+            <li><img src="../images/Fb.svg" alt="" /></li>
+            <li><img src="../images/Twiter.svg" alt="" /></li>
+            <li><img src="../images/Pintrest.svg" alt="" /></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="../plugins/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+    <script src="../js/reservation.js"></script>
+    <script src="../js/widgets.js"></script>
+    <script src="../js/general.js"></script>
+  </body>
+</html>
