@@ -1,5 +1,3 @@
-// Chinedu / 8994158
-
 /*jshint esversion: 6 */
 
 $(document).ready(() => {

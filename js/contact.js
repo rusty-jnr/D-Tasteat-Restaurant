@@ -1,5 +1,3 @@
-// Blessing / 8932413
-
 /*jshint esversion: 6 */
 
 $(document).ready(() => {

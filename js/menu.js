@@ -1,5 +1,3 @@
-// Charles / 8994994
-
 /*jshint esversion: 6 */
 
 $(document).ready(function () {

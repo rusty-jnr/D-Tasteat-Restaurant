@@ -1,5 +1,3 @@
-// Valentine / 8994110
-
 /*jshint esversion: 6 */
 
 $(document).ready(function () {
